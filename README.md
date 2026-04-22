@@ -20,3 +20,5 @@ If you are developing a production application, we recommend using TypeScript wi
 Hola React
 Hola JS
 :v
+Chau React
+Chau JS
