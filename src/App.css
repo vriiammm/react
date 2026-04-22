@@ -3,7 +3,10 @@
   flex: 1;
   flex-direction: column;
 }
-
+.App h1{
+  text-align: center;
+  color: red;
+}
 .Tarjeta {
   display: flex;
   flex-direction: column;
@@ -11,7 +14,7 @@
   align-items: center;
   padding: 15px 20px;
   margin: 10px;
-  background-color: aqua;
+  background-color: rgb(181, 181, 181);
   border-radius: 15px;
 }
 
@@ -25,5 +28,6 @@
 }
 .Tarjeta h1, h2{
 margin: 3px 0;
+color: blue;
 }
 

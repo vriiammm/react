@@ -4,7 +4,7 @@ import Tarjeta from "./Tarjeta";
 export default function Listado({ personas }) {
     return (
         <div>
-            <h1>Componente listado</h1>
+            <h1 cla>Componente listado</h1>
             <div className="Listado">
                 {personas.map((persona, index) =>
                     <Tarjeta
