@@ -3,7 +3,9 @@ import Tarjeta from "./Tarjeta";
 
 export default function Listado({ personas }) {
     return (
-        <div>
+        <div 
+        style={{flex: 3}}
+        >
             <h1 cla>Componente listado</h1>
             <div className="Listado">
                 {personas.map((persona, index) =>
@@ -11,6 +13,8 @@ export default function Listado({ personas }) {
                         documento={persona.documento}
                         apellido={persona.apellido}
                         nombres={persona.nombres}
+                        alumno={persona.alumno}
+
                     />
                 )}
 
