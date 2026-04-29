@@ -14,6 +14,8 @@ export default function Listado({ personas }) {
                         apellido={persona.apellido}
                         nombres={persona.nombres}
                         alumno={persona.alumno}
+                        curso={persona.curso}
+                        division={persona.division}
 
                     />
                 )}
